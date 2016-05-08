@@ -1,0 +1,217 @@
+<?php defined('SYSPATH') OR die('No direct script access.'); ?>
+
+2016-03-06 00:53:05 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: package ~ DOCROOT\Robi\views\hr\form\leavesummary.php [ 8 ] in F:\xampp\htdocs\windybdnew\Robi\views\hr\form\leavesummary.php:8
+2016-03-06 00:53:05 --- DEBUG: #0 F:\xampp\htdocs\windybdnew\Robi\views\hr\form\leavesummary.php(8): Kohana_Core::error_handler(8, 'Undefined varia...', 'F:\\xampp\\htdocs...', 8, Array)
+#1 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(62): include('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('F:\\xampp\\htdocs...', Array)
+#3 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 F:\xampp\htdocs\windybdnew\application\views\template.php(64): Kohana_View->__toString()
+#5 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(62): include('F:\\xampp\\htdocs...')
+#6 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('F:\\xampp\\htdocs...', Array)
+#7 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Leave))
+#11 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 F:\xampp\htdocs\windybdnew\index.php(125): Kohana_Request->execute()
+#14 {main} in F:\xampp\htdocs\windybdnew\Robi\views\hr\form\leavesummary.php:8
+2016-03-06 00:58:15 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: error ~ DOCROOT\Robi\views\hr\form\leavesummary.php [ 11 ] in F:\xampp\htdocs\windybdnew\Robi\views\hr\form\leavesummary.php:11
+2016-03-06 00:58:15 --- DEBUG: #0 F:\xampp\htdocs\windybdnew\Robi\views\hr\form\leavesummary.php(11): Kohana_Core::error_handler(8, 'Undefined varia...', 'F:\\xampp\\htdocs...', 11, Array)
+#1 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(62): include('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('F:\\xampp\\htdocs...', Array)
+#3 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 F:\xampp\htdocs\windybdnew\application\views\template.php(64): Kohana_View->__toString()
+#5 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(62): include('F:\\xampp\\htdocs...')
+#6 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('F:\\xampp\\htdocs...', Array)
+#7 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Leave))
+#11 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 F:\xampp\htdocs\windybdnew\index.php(125): Kohana_Request->execute()
+#14 {main} in F:\xampp\htdocs\windybdnew\Robi\views\hr\form\leavesummary.php:11
+2016-03-06 01:10:23 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: startDate ~ DOCROOT\Robi\views\hr\form\datewiseleave.php [ 8 ] in F:\xampp\htdocs\windybdnew\Robi\views\hr\form\datewiseleave.php:8
+2016-03-06 01:10:23 --- DEBUG: #0 F:\xampp\htdocs\windybdnew\Robi\views\hr\form\datewiseleave.php(8): Kohana_Core::error_handler(8, 'Undefined varia...', 'F:\\xampp\\htdocs...', 8, Array)
+#1 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(62): include('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('F:\\xampp\\htdocs...', Array)
+#3 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 F:\xampp\htdocs\windybdnew\application\views\template.php(64): Kohana_View->__toString()
+#5 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(62): include('F:\\xampp\\htdocs...')
+#6 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('F:\\xampp\\htdocs...', Array)
+#7 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Leave))
+#11 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 F:\xampp\htdocs\windybdnew\index.php(125): Kohana_Request->execute()
+#14 {main} in F:\xampp\htdocs\windybdnew\Robi\views\hr\form\datewiseleave.php:8
+2016-03-06 03:14:39 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: error ~ DOCROOT\Robi\views\hr\form\leavereport.php [ 2 ] in F:\xampp\htdocs\windybdnew\Robi\views\hr\form\leavereport.php:2
+2016-03-06 03:14:39 --- DEBUG: #0 F:\xampp\htdocs\windybdnew\Robi\views\hr\form\leavereport.php(2): Kohana_Core::error_handler(8, 'Undefined varia...', 'F:\\xampp\\htdocs...', 2, Array)
+#1 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(62): include('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('F:\\xampp\\htdocs...', Array)
+#3 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 F:\xampp\htdocs\windybdnew\application\views\template.php(64): Kohana_View->__toString()
+#5 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(62): include('F:\\xampp\\htdocs...')
+#6 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('F:\\xampp\\htdocs...', Array)
+#7 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Leave))
+#11 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 F:\xampp\htdocs\windybdnew\index.php(125): Kohana_Request->execute()
+#14 {main} in F:\xampp\htdocs\windybdnew\Robi\views\hr\form\leavereport.php:2
+2016-03-06 03:15:01 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: error ~ DOCROOT\Robi\views\hr\form\leavereport.php [ 11 ] in F:\xampp\htdocs\windybdnew\Robi\views\hr\form\leavereport.php:11
+2016-03-06 03:15:01 --- DEBUG: #0 F:\xampp\htdocs\windybdnew\Robi\views\hr\form\leavereport.php(11): Kohana_Core::error_handler(8, 'Undefined varia...', 'F:\\xampp\\htdocs...', 11, Array)
+#1 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(62): include('F:\\xampp\\htdocs...')
+#2 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('F:\\xampp\\htdocs...', Array)
+#3 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 F:\xampp\htdocs\windybdnew\application\views\template.php(64): Kohana_View->__toString()
+#5 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(62): include('F:\\xampp\\htdocs...')
+#6 F:\xampp\htdocs\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('F:\\xampp\\htdocs...', Array)
+#7 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Leave))
+#11 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 F:\xampp\htdocs\windybdnew\index.php(125): Kohana_Request->execute()
+#14 {main} in F:\xampp\htdocs\windybdnew\Robi\views\hr\form\leavereport.php:11
+2016-03-06 03:35:57 --- CRITICAL: ErrorException [ 8 ]: Undefined index: empId ~ DOCROOT\Robi\classes\Controller\hr\Leave.php [ 165 ] in F:\xampp\htdocs\windybdnew\Robi\classes\Controller\hr\Leave.php:165
+2016-03-06 03:35:57 --- DEBUG: #0 F:\xampp\htdocs\windybdnew\Robi\classes\Controller\hr\Leave.php(165): Kohana_Core::error_handler(8, 'Undefined index...', 'F:\\xampp\\htdocs...', 165, Array)
+#1 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Controller.php(84): Controller_Hr_Leave->action_leavereport()
+#2 [internal function]: Kohana_Controller->execute()
+#3 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Leave))
+#4 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#5 F:\xampp\htdocs\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#6 F:\xampp\htdocs\windybdnew\index.php(125): Kohana_Request->execute()
+#7 {main} in F:\xampp\htdocs\windybdnew\Robi\classes\Controller\hr\Leave.php:165
+2016-03-06 04:38:12 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected 'endforeach' (T_ENDFOREACH) ~ DOCROOT\Robi\views\hr\form\addcompany.php [ 51 ] in file:line
+2016-03-06 04:38:12 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-03-06 04:38:26 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected 'endforeach' (T_ENDFOREACH) ~ DOCROOT\Robi\views\hr\form\addcompany.php [ 51 ] in file:line
+2016-03-06 04:38:26 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-03-06 04:40:34 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected 'endforeach' (T_ENDFOREACH) ~ DOCROOT\Robi\views\hr\form\addcompany.php [ 51 ] in file:line
+2016-03-06 04:40:34 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-03-06 04:40:45 --- CRITICAL: ErrorException [ 4 ]: syntax error, unexpected 'endforeach' (T_ENDFOREACH) ~ DOCROOT\Robi\views\hr\form\addcompany.php [ 51 ] in file:line
+2016-03-06 04:40:45 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-03-06 07:25:41 --- CRITICAL: View_Exception [ 0 ]: The requested view hr/report/leavereportall could not be found ~ SYSPATH\classes\Kohana\View.php [ 265 ] in C:\wamp\www\windybdnew\system\classes\Kohana\View.php:145
+2016-03-06 07:25:41 --- DEBUG: #0 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(145): Kohana_View->set_filename('hr/report/leave...')
+#1 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(30): Kohana_View->__construct('hr/report/leave...', NULL)
+#2 C:\wamp\www\windybdnew\Robi\classes\Controller\hr\Leave.php(204): Kohana_View::factory('hr/report/leave...')
+#3 C:\wamp\www\windybdnew\system\classes\Kohana\Controller.php(84): Controller_Hr_Leave->action_leavereportall()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Leave))
+#6 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\wamp\www\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 C:\wamp\www\windybdnew\index.php(125): Kohana_Request->execute()
+#9 {main} in C:\wamp\www\windybdnew\system\classes\Kohana\View.php:145
+2016-03-06 07:26:33 --- CRITICAL: View_Exception [ 0 ]: The requested view hr/report/leavereportall could not be found ~ SYSPATH\classes\Kohana\View.php [ 265 ] in C:\wamp\www\windybdnew\system\classes\Kohana\View.php:145
+2016-03-06 07:26:33 --- DEBUG: #0 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(145): Kohana_View->set_filename('hr/report/leave...')
+#1 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(30): Kohana_View->__construct('hr/report/leave...', NULL)
+#2 C:\wamp\www\windybdnew\Robi\classes\Controller\hr\Leave.php(204): Kohana_View::factory('hr/report/leave...')
+#3 C:\wamp\www\windybdnew\system\classes\Kohana\Controller.php(84): Controller_Hr_Leave->action_leavereportall()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Leave))
+#6 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\wamp\www\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 C:\wamp\www\windybdnew\index.php(125): Kohana_Request->execute()
+#9 {main} in C:\wamp\www\windybdnew\system\classes\Kohana\View.php:145
+2016-03-06 07:28:20 --- CRITICAL: View_Exception [ 0 ]: The requested view hr/report/leavereportall could not be found ~ SYSPATH\classes\Kohana\View.php [ 265 ] in C:\wamp\www\windybdnew\system\classes\Kohana\View.php:145
+2016-03-06 07:28:20 --- DEBUG: #0 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(145): Kohana_View->set_filename('hr/report/leave...')
+#1 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(30): Kohana_View->__construct('hr/report/leave...', NULL)
+#2 C:\wamp\www\windybdnew\Robi\classes\Controller\hr\Leave.php(204): Kohana_View::factory('hr/report/leave...')
+#3 C:\wamp\www\windybdnew\system\classes\Kohana\Controller.php(84): Controller_Hr_Leave->action_leavereportall()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Leave))
+#6 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\wamp\www\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 C:\wamp\www\windybdnew\index.php(125): Kohana_Request->execute()
+#9 {main} in C:\wamp\www\windybdnew\system\classes\Kohana\View.php:145
+2016-03-06 07:34:59 --- CRITICAL: View_Exception [ 0 ]: The requested view hr/report/leavesummary could not be found ~ SYSPATH\classes\Kohana\View.php [ 265 ] in C:\wamp\www\windybdnew\system\classes\Kohana\View.php:145
+2016-03-06 07:34:59 --- DEBUG: #0 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(145): Kohana_View->set_filename('hr/report/leave...')
+#1 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(30): Kohana_View->__construct('hr/report/leave...', NULL)
+#2 C:\wamp\www\windybdnew\Robi\classes\Controller\hr\Leave.php(107): Kohana_View::factory('hr/report/leave...')
+#3 C:\wamp\www\windybdnew\system\classes\Kohana\Controller.php(84): Controller_Hr_Leave->action_leavesummary()
+#4 [internal function]: Kohana_Controller->execute()
+#5 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Leave))
+#6 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#7 C:\wamp\www\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#8 C:\wamp\www\windybdnew\index.php(125): Kohana_Request->execute()
+#9 {main} in C:\wamp\www\windybdnew\system\classes\Kohana\View.php:145
+2016-03-06 08:23:40 --- CRITICAL: ErrorException [ 8 ]: Undefined index: empNameId ~ DOCROOT\Robi\views\hr\report\leavereport.php [ 2 ] in C:\wamp\www\windybdnew\Robi\views\hr\report\leavereport.php:2
+2016-03-06 08:23:40 --- DEBUG: #0 C:\wamp\www\windybdnew\Robi\views\hr\report\leavereport.php(2): Kohana_Core::error_handler(8, 'Undefined index...', 'C:\\wamp\\www\\win...', 2, Array)
+#1 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(62): include('C:\\wamp\\www\\win...')
+#2 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('C:\\wamp\\www\\win...', Array)
+#3 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 C:\wamp\www\windybdnew\application\views\template.php(61): Kohana_View->__toString()
+#5 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(62): include('C:\\wamp\\www\\win...')
+#6 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('C:\\wamp\\www\\win...', Array)
+#7 C:\wamp\www\windybdnew\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\wamp\www\windybdnew\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Leave))
+#11 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 C:\wamp\www\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 C:\wamp\www\windybdnew\index.php(125): Kohana_Request->execute()
+#14 {main} in C:\wamp\www\windybdnew\Robi\views\hr\report\leavereport.php:2
+2016-03-06 08:23:45 --- CRITICAL: ErrorException [ 8 ]: Undefined index: empNameId ~ DOCROOT\Robi\views\hr\report\leavereport.php [ 2 ] in C:\wamp\www\windybdnew\Robi\views\hr\report\leavereport.php:2
+2016-03-06 08:23:45 --- DEBUG: #0 C:\wamp\www\windybdnew\Robi\views\hr\report\leavereport.php(2): Kohana_Core::error_handler(8, 'Undefined index...', 'C:\\wamp\\www\\win...', 2, Array)
+#1 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(62): include('C:\\wamp\\www\\win...')
+#2 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('C:\\wamp\\www\\win...', Array)
+#3 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 C:\wamp\www\windybdnew\application\views\template.php(61): Kohana_View->__toString()
+#5 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(62): include('C:\\wamp\\www\\win...')
+#6 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('C:\\wamp\\www\\win...', Array)
+#7 C:\wamp\www\windybdnew\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\wamp\www\windybdnew\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Leave))
+#11 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 C:\wamp\www\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 C:\wamp\www\windybdnew\index.php(125): Kohana_Request->execute()
+#14 {main} in C:\wamp\www\windybdnew\Robi\views\hr\report\leavereport.php:2
+2016-03-06 22:28:36 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: error ~ DOCROOT\Robi\views\hr\report\viewattendance.php [ 11 ] in C:\wamp\www\windybdnew\Robi\views\hr\report\viewattendance.php:11
+2016-03-06 22:28:36 --- DEBUG: #0 C:\wamp\www\windybdnew\Robi\views\hr\report\viewattendance.php(11): Kohana_Core::error_handler(8, 'Undefined varia...', 'C:\\wamp\\www\\win...', 11, Array)
+#1 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(62): include('C:\\wamp\\www\\win...')
+#2 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('C:\\wamp\\www\\win...', Array)
+#3 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 C:\wamp\www\windybdnew\application\views\template.php(61): Kohana_View->__toString()
+#5 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(62): include('C:\\wamp\\www\\win...')
+#6 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('C:\\wamp\\www\\win...', Array)
+#7 C:\wamp\www\windybdnew\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\wamp\www\windybdnew\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Attendance))
+#11 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 C:\wamp\www\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 C:\wamp\www\windybdnew\index.php(125): Kohana_Request->execute()
+#14 {main} in C:\wamp\www\windybdnew\Robi\views\hr\report\viewattendance.php:11
+2016-03-06 22:38:46 --- CRITICAL: ErrorException [ 1 ]: Call to undefined function bind() ~ DOCROOT\Robi\classes\Controller\hr\Attendance.php [ 87 ] in file:line
+2016-03-06 22:38:46 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-03-06 22:39:34 --- CRITICAL: ErrorException [ 1 ]: Call to undefined function bind() ~ DOCROOT\Robi\classes\Controller\hr\Attendance.php [ 87 ] in file:line
+2016-03-06 22:39:34 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in file:line
+2016-03-06 22:53:00 --- CRITICAL: ErrorException [ 8 ]: Undefined variable: error ~ DOCROOT\Robi\views\hr\report\attendancesummary.php [ 11 ] in C:\wamp\www\windybdnew\Robi\views\hr\report\attendancesummary.php:11
+2016-03-06 22:53:00 --- DEBUG: #0 C:\wamp\www\windybdnew\Robi\views\hr\report\attendancesummary.php(11): Kohana_Core::error_handler(8, 'Undefined varia...', 'C:\\wamp\\www\\win...', 11, Array)
+#1 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(62): include('C:\\wamp\\www\\win...')
+#2 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('C:\\wamp\\www\\win...', Array)
+#3 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(236): Kohana_View->render()
+#4 C:\wamp\www\windybdnew\application\views\template.php(61): Kohana_View->__toString()
+#5 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(62): include('C:\\wamp\\www\\win...')
+#6 C:\wamp\www\windybdnew\system\classes\Kohana\View.php(359): Kohana_View::capture('C:\\wamp\\www\\win...', Array)
+#7 C:\wamp\www\windybdnew\system\classes\Kohana\Controller\Template.php(44): Kohana_View->render()
+#8 C:\wamp\www\windybdnew\system\classes\Kohana\Controller.php(87): Kohana_Controller_Template->after()
+#9 [internal function]: Kohana_Controller->execute()
+#10 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client\Internal.php(97): ReflectionMethod->invoke(Object(Controller_Hr_Attendance))
+#11 C:\wamp\www\windybdnew\system\classes\Kohana\Request\Client.php(114): Kohana_Request_Client_Internal->execute_request(Object(Request), Object(Response))
+#12 C:\wamp\www\windybdnew\system\classes\Kohana\Request.php(997): Kohana_Request_Client->execute(Object(Request))
+#13 C:\wamp\www\windybdnew\index.php(125): Kohana_Request->execute()
+#14 {main} in C:\wamp\www\windybdnew\Robi\views\hr\report\attendancesummary.php:11
